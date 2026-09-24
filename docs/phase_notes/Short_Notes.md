@@ -76,4 +76,31 @@ or
 └──────────────────────────────┘
 ```
 
+# Latency vs Throughput
 
+### Latency
+
+Latency answers:
+> How long does one operation take?
+
+Example:
+```
+Request
+   │
+   ▼
+Processing
+   │
+   ▼
+Response
+```
+50 ms
+
+### Throughput
+
+Throughput answers:
+> How much work can we complete per unit of time?
+
+Example:
+```
+100 requests / second
+```
